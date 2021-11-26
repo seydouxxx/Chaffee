@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B72E9C158C83B471304DBB7 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = F21910DB53954F4E175DF969 /* awsconfiguration.json */; };
 		7E335626275081C100C29428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E335625275081C100C29428 /* AppDelegate.swift */; };
 		7E335628275081C100C29428 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E335627275081C100C29428 /* SceneDelegate.swift */; };
 		7E33562A275081C100C29428 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E335629275081C100C29428 /* LoginViewController.swift */; };
 		7E33562D275081C100C29428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E33562B275081C100C29428 /* Main.storyboard */; };
 		7E33562F275081C600C29428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E33562E275081C600C29428 /* Assets.xcassets */; };
 		7E335632275081C600C29428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E335630275081C600C29428 /* LaunchScreen.storyboard */; };
+		7E3356482750D49D00C29428 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3356462750D49D00C29428 /* awsconfiguration.json */; };
+		7E3356492750D49D00C29428 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3356472750D49D00C29428 /* amplifyconfiguration.json */; };
+		7E33564B2750D4DB00C29428 /* AWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E33564A2750D4DB00C29428 /* AWS.swift */; };
+		A14E6D2BF21FCE85C07EB00E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 43490D563451BE5605878150 /* amplifyconfiguration.json */; };
 		FCE4DDFD5B72A5B8DB2B9798 /* Pods_Chaffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101183AD97423754A25DEDB3 /* Pods_Chaffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02EF80B01A24984669632395 /* Pods-Chaffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaffee.debug.xcconfig"; path = "Target Support Files/Pods-Chaffee/Pods-Chaffee.debug.xcconfig"; sourceTree = "<group>"; };
 		101183AD97423754A25DEDB3 /* Pods_Chaffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chaffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43490D563451BE5605878150 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		59D3996335318192E6202442 /* Pods-Chaffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaffee.release.xcconfig"; path = "Target Support Files/Pods-Chaffee/Pods-Chaffee.release.xcconfig"; sourceTree = "<group>"; };
 		7E335622275081C100C29428 /* Chaffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E335625275081C100C29428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		7E33562E275081C600C29428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E335631275081C600C29428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E335633275081C600C29428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3356462750D49D00C29428 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		7E3356472750D49D00C29428 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		7E33564A2750D4DB00C29428 /* AWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWS.swift; sourceTree = "<group>"; };
+		F21910DB53954F4E175DF969 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +55,13 @@
 		7E335619275081C100C29428 = {
 			isa = PBXGroup;
 			children = (
+				7E3356472750D49D00C29428 /* amplifyconfiguration.json */,
+				7E3356462750D49D00C29428 /* awsconfiguration.json */,
 				7E335624275081C100C29428 /* Chaffee */,
 				7E335623275081C100C29428 /* Products */,
 				9F520EAA6EEC6480EBD70EED /* Pods */,
 				E4DD0383E14E142C4D6C384E /* Frameworks */,
+				ED436B24C88C774EF156972B /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +76,7 @@
 		7E335624275081C100C29428 /* Chaffee */ = {
 			isa = PBXGroup;
 			children = (
+				7E33564A2750D4DB00C29428 /* AWS.swift */,
 				7E335625275081C100C29428 /* AppDelegate.swift */,
 				7E335627275081C100C29428 /* SceneDelegate.swift */,
 				7E335629275081C100C29428 /* LoginViewController.swift */,
@@ -80,7 +94,6 @@
 				02EF80B01A24984669632395 /* Pods-Chaffee.debug.xcconfig */,
 				59D3996335318192E6202442 /* Pods-Chaffee.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,6 +103,15 @@
 				101183AD97423754A25DEDB3 /* Pods_Chaffee.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED436B24C88C774EF156972B /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F21910DB53954F4E175DF969 /* awsconfiguration.json */,
+				43490D563451BE5605878150 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +176,11 @@
 			files = (
 				7E335632275081C600C29428 /* LaunchScreen.storyboard in Resources */,
 				7E33562F275081C600C29428 /* Assets.xcassets in Resources */,
+				7E3356482750D49D00C29428 /* awsconfiguration.json in Resources */,
+				7E3356492750D49D00C29428 /* amplifyconfiguration.json in Resources */,
 				7E33562D275081C100C29428 /* Main.storyboard in Resources */,
+				2B72E9C158C83B471304DBB7 /* awsconfiguration.json in Resources */,
+				A14E6D2BF21FCE85C07EB00E /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +236,7 @@
 				7E33562A275081C100C29428 /* LoginViewController.swift in Sources */,
 				7E335626275081C100C29428 /* AppDelegate.swift in Sources */,
 				7E335628275081C100C29428 /* SceneDelegate.swift in Sources */,
+				7E33564B2750D4DB00C29428 /* AWS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

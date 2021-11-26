@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chaffee-dev-171444-authRole",
+      "UnauthRoleArn": "arn:aws:iam::857782064031:role/amplify-chaffee-dev-171444-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::857782064031:role/amplify-chaffee-dev-171444-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-chaffee-dev-171444-deployment",
+      "UnauthRoleName": "amplify-chaffee-dev-171444-unauthRole",
+      "StackName": "amplify-chaffee-dev-171444",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:857782064031:stack/amplify-chaffee-dev-171444/ebd7fa60-4e90-11ec-bf17-06461291d39c",
+      "AmplifyAppId": "d3gflow2k87oqq"
+    }
+  }
+}

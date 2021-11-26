@@ -110,6 +110,7 @@
 			children = (
 				F21910DB53954F4E175DF969 /* awsconfiguration.json */,
 				43490D563451BE5605878150 /* amplifyconfiguration.json */,
+				7E3356462750D49D00C29428 /* awsconfiguration.json */,
 			);
 			name = AmplifyConfig;
 			sourceTree = "<group>";
@@ -217,9 +218,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Chaffee/Pods-Chaffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Chaffee/Pods-Chaffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

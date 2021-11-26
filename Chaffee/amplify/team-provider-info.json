@@ -10,6 +10,11 @@
       "StackName": "amplify-chaffee-dev-171444",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:857782064031:stack/amplify-chaffee-dev-171444/ebd7fa60-4e90-11ec-bf17-06461291d39c",
       "AmplifyAppId": "d3gflow2k87oqq"
+    },
+    "categories": {
+      "auth": {
+        "Chaffee": {}
+      }
     }
   }
 }
